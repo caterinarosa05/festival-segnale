@@ -176,6 +176,7 @@ h3 {
 
 .event-card {
   margin-bottom: 0;
+  min-width: 0;
   overflow: hidden;
   border: 1px solid #b7c0b7;
   border-radius: 0.75rem;
@@ -185,11 +186,14 @@ h3 {
 .event-card img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
 .event-body {
+  min-width: 0;
   padding: 1.25rem;
+  overflow-wrap: anywhere;
 }
 
 .event-body p:last-child {
